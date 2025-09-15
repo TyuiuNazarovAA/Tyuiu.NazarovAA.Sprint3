@@ -9,8 +9,8 @@ namespace Tyuiu.NazarovAA.Sprint3.Task5.V12.Test
         public void ValidGetSumSumSeries()
         {
             DataService ds = new DataService();
-            double res = ds.GetSumSumSeries(5, 1, 1, 2, 2);
-            double wait = 10.248;
+            double res = ds.GetSumSumSeries(5, 1, 1, 3, 10);
+            double wait = 55.748;
             Assert.AreEqual(wait, res);
         }
     }

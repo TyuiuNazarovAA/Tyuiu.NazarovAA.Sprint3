@@ -11,7 +11,7 @@ namespace Tyuiu.NazarovAA.Sprint3.Task5.V12.Lib
             {
                 for (int j = startValue2; j <= stopValue2; j++)
                 {
-                    res += Math.Cos(j) + (double)x / 2;
+                    res += Math.Cos(j) + x / 2;
                 }
             }
             return Math.Round(res, 3);
