@@ -9,9 +9,9 @@ namespace Tyuiu.NazarovAA.Sprint3.Task0.V1.Lib
             double sum = 0;
             for (int i = startValue; i < stopValue + 1; i++)
             {
-                sum += value * value * i;
+                sum += value * value * i + 1;
             }
-            return sum + 1;
+            return sum;
         }
     }
 }
