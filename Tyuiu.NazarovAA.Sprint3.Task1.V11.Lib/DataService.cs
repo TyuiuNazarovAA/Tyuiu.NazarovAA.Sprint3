@@ -12,7 +12,7 @@ namespace Tyuiu.NazarovAA.Sprint3.Task1.V11.Lib
                 res *= Math.Pow(value, startValue) + 0.5;
                 startValue++;
             }
-            return res;
+            return Math.Round(res, 3);
         }
     }
 }

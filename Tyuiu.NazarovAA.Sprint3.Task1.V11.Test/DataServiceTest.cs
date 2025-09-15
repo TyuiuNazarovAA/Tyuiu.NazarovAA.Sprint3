@@ -10,7 +10,7 @@ namespace Tyuiu.NazarovAA.Sprint3.Task1.V11.Test
         {
             DataService ds = new DataService();
             double res = ds.GetMultiplySeries(0.75, 1, 2);
-            double wait = 1.328125;
+            double wait = 1.328;
             Assert.AreEqual(wait, res);
         }
     }
